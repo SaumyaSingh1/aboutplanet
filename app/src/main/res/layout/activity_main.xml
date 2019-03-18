@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:background="#68f7f7"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="78dp"
+        android:layout_height="354dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/planet"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="223dp"
+        android:layout_height="382dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="11dp"
+        android:layout_weight="2"
+        android:clickable="true"
+        android:text="Earth is the third planet from the Sun and is the largest of the terrestrial planets. The Earth is the only planet in our solar system not to be named after a Greek or Roman deity. The Earth was formed approximately 4.54 billion years ago and is the only known planet to support life."
+        android:textColor="#126cb5"
+        android:textStyle="normal"
+        />
+
+    <TextView
+        android:clickable="true"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="2"
+        android:text="Earth"
+        android:textColor="#2c8df5"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+</RelativeLayout>
